@@ -25,7 +25,7 @@ while True:
     print()
     print(colored("The game will continue while one of you succeed to make 6 points", 'green'))
     print()
-    print(colored(f"Now You have {win_player_counter} POINTS and Computer have {win_computer_counter} POINTS", 'red'))
+    print(colored(f"Your\'s POINTS {win_player_counter}  /  Computer\'s POINTS {win_computer_counter}", 'red'))
     if win_player_counter >= 6:
         print("Game Is Over - You win the game")
         break
